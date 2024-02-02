@@ -8,16 +8,18 @@ body {
     font-size: 20px;
 }
 
-/* General images (steps) */
 img {
     height: auto;
-    width: 450px;
+    width: 300px;
     display: block;
     margin: auto;
+    margin-bottom: 20px;
+    margin-top: 8px;
 }
 
-#title-img {
+#odin-img {
     width: 600px;
+    margin-top: 50px;
 }
 
 .heading {
@@ -26,20 +28,10 @@ img {
     text-align: center;
 }
 
-.description {
-    text-align: center;
-}
-
-.steps img {
-    margin-bottom: 20px;
-    margin-top: 5px;
-}
-
 
 /* List alignment */
 
-.ingredients,
-.steps {
+.recipes {
   max-width: 750px;
   margin: auto;
   text-align: left;
@@ -55,4 +47,3 @@ li {
   text-align: inherit;
   text-indent: 50px; /* Adjust the indentation as needed */
 }
-
