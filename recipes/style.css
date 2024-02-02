@@ -1,0 +1,58 @@
+* {
+    background-color: rgb(255, 255, 244);
+    /* text-align: center; */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* General images (steps */
+img {
+    height: auto;
+    width: 450px;
+    display: block;
+    margin: auto;
+}
+
+#title-img {
+    width: 600px;
+}
+
+.heading {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.steps img {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+
+/* List alignment */
+
+.ingredients,
+.steps {
+  max-width: 750px;
+  margin: auto;
+  text-align: left;
+}
+
+ul, ol {
+  padding-left: 0;
+  list-style-position: inside;
+  text-align: left;
+}
+
+li {
+  text-align: inherit;
+  text-indent: 50px; /* Adjust the indentation as needed */
+}
+
